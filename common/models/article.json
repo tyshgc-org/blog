@@ -17,6 +17,26 @@
     "hash": {
       "type": "string",
       "required": true
+    },
+    "author": {
+      "type": "object",
+      "required": true
+    },
+    "content": {
+      "type": "string"
+    },
+    "update_at": {
+      "type": "date",
+      "required": true
+    },
+    "create_at": {
+      "type": "date",
+      "required": true
+    },
+    "tags": {
+      "type": [
+        "object"
+      ]
     }
   },
   "validations": [],
