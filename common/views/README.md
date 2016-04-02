@@ -4,7 +4,16 @@
 *※コンポーネントはReact.jsの扱うコンポーネントの事。ここではレイヤーごとにディレクトリでまとめている。*
 *※コンポーネントに関連するCSSは同じディレクトリに置く。*
 
-- utils: Cssの変数関連やVendorのコード類、どのコンポーネント群にも関連できそうな共通関数など
+- utils
+  - styles: Cssの変数関連やVendorのコード類
+  - scripts: コンポーネントにはできない共通関数など（サービス層的な位置づけ）
+  - images: 画像・フォント・favicon類
+    - svg
+    - png
+    - gif
+    - jpeg
+    - favicon
+    - font
 - ui-parts: UIデザイン都合のUI部品類のコンポーネント
   - Form
   - Heading
